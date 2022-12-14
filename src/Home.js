@@ -16,7 +16,7 @@ const [blogs,setBlogs]  = useState([
 
 </div>
 
-))}
+        ))}
         </div>
      );
 }
