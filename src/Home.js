@@ -12,6 +12,7 @@ const handleDelete = (id)=>{
     setBlogs(newBlogs);
 }
     
+useEffect(()=>{console.log("use effect")},[blogs]);
 return ( 
   <div className='home'>
     <BlogList blogs={blogs} handleDelete ={handleDelete}/>
